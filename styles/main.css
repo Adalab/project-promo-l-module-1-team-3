@@ -1,34 +1,40 @@
 :root {
   --white: white;
   --blue-green: #099d8dff;
+  --black: #000000;
 }
-body {
+* {
   margin: 0;
 }
-.Hero {
-  width: 320px;
-  height: 421px;
+
+/* HEADER*/
+.hero {
+  width: 768px;
+  height: 303px;
   margin: 0 0 46px;
   padding: 0 0 316px;
 }
+.container-img {
+  width: 768px;
+  height: 303px;
+}
+.img {
+  width: 100%;
+}
 .lema {
-  width: 260px;
-  height: 50px;
-  font-family: OpenSans;
   font-size: 18px;
+  font-family: open sans-serif;
   font-weight: 600;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.39;
-  letter-spacing: normal;
-}
-.Rectangle-2 {
-  width: 290px;
+  line-height: 28px;
+  background-color: white;
   height: 80px;
-  margin: 387px 15px 0;
-  padding: 14px 15px 16px;
-  background-color: var(--white);
+  text-align: center;
+  position: relative;
+  bottom: 25px;
+  padding: 20px;
+  margin: 0 15px 0 15px;
 }
+/* MAIN*/
 main {
   background-color: royalblue;
 }
