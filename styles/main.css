@@ -66,3 +66,21 @@ main {
   top: 14px;
   background-color: var(--white);
 }
+
+.item-1 {
+  box-sizing: border-box;
+  position: relative;
+  left: 1270px;
+  background: var(--white);
+}
+.item-2 {
+  box-sizing: content-box;
+  position: relative;
+  left: 1270px;
+  background: var(--white);
+}
+.item-3 {
+  box-sizing: content-box;
+  position: relative;
+  left: 1270px;
+  background: var(--white);
