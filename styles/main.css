@@ -15,14 +15,83 @@
   background-color: var(--white);
 }
 /* HEADER*/
+.header{
+  width: 320px;
+  height: 60px;
+  padding: 15px 80px;
+  opacity: 0.95;
+  background-color: var(--blue-green);
+}
+
+.nombregrupo{
+  width: 160px;
+  height: 30px;
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.headercontent{
+  width: 320px;
+  height: 45px;
+  margin: 6px 0 0;
+  padding: 8px 17px 7px 16px;
+  opacity: 0.9;
+  background-color: var(--aqua);
+}
+.headerequipo{
+  width: 56px;
+  height: 30px;
+  margin: 0 15px 0 0;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.headerquienessomos{
+  width: 121px;
+  height: 30px;
+  margin: 0 15px;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.headercontacto {
+  width: 80px;
+  height: 30px;
+  margin: 0 0 0 15px;
+  font-family: Rubik;
+  font-size: 15px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #ffffff;
+}
 .hero {
   width: 320px;
   height: 421px;
+  
 }
 
 .container-img {
   width: 320px;
-  height: 130px;
+  height: 4025px;
 }
 .img {
   width: 100%;
