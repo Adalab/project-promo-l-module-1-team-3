@@ -211,7 +211,10 @@
   text-align: center;
   color: var(--blue-green);
 }
+.colorlogo{
+  color: var(--blue-green);
 
+}
 .article {
   margin-left: 15px;
 }
@@ -252,9 +255,10 @@
   color: #54585a;
 }
 .logos {
+  display: flex;
   width: 124px;
   height: 30px;
-  margin: 15px 83px 0;
+  margin: 15px 41px 0;
   font-family: FontAwesome5Brands;
   font-size: 16px;
   font-weight: normal;
@@ -264,6 +268,9 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer {
