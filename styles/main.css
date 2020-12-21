@@ -8,12 +8,16 @@
   margin: 0;
   box-sizing: border-box;
   border: 2px solid green;
+  text-decoration: none;
 }
-/*.s1-home-320 {
+.full-container {
   width: 320px;
   height: 4025px;
   background-color: var(--white);
-<<<<<<< HEAD
+}
+.enlace {
+  color: white;
+}
 
 /* HEADER*/
 .header {
@@ -36,19 +40,8 @@
   letter-spacing: normal;
   color: #ffffff;
 }
-.headercontent {
-  width: 320px;
-  height: 45px;
-  margin: 6px 0 0;
-  padding: 8px 17px 7px 16px;
-  opacity: 0.9;
-  background-color: var(--aqua);
-}
-HEAD
-li{
+.header-lista {
   display: inline;
-}
-.headerequipo{
   width: 56px;
   height: 30px;
   margin: 0 15px 0 0;
@@ -61,33 +54,15 @@ li{
   letter-spacing: normal;
   color: #ffffff;
 }
+.headercontent {
+  width: 320px;
+  height: 45px;
+  margin: 6px 0 0;
+  padding: 8px 17px 7px 16px;
+  opacity: 0.9;
+  background-color: var(--aqua);
+}
 
-.headerquienessomos {
-  width: 121px;
-  height: 30px;
-  margin: 0 15px;
-  font-family: Rubik;
-  font-size: 11px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2;
-  letter-spacing: normal;
-  color: #ffffff;
-}
-.headercontacto {
-  width: 80px;
-  height: 30px;
-  margin: 0 0 0 15px;
-  font-family: Rubik;
-  font-size: 11px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2;
-  letter-spacing: normal;
-  color: #ffffff;
-}
 .hero {
   width: 320px;
   height: 130px;
@@ -115,9 +90,7 @@ li{
   margin: 0x 15px 0 15px;
 }
 /* MAIN*/
-main {
-  background-color: royalblue;
-}
+
 .contenedor-equipo {
   box-sizing: border-box;
   width: 320px;
@@ -163,8 +136,49 @@ main {
   transform: rotate(45deg);
   background-color: var(--white);
 }
+
+/*FORTALEZAS DEBILIDADES*/
+
+.contenedor-fortalezas-debilidades {
+  width: 320px;
+  height: 579px;
+  margin: 504px 0 0;
+  padding: 30px 15px 45px;
+  opacity: 0.2;
+  background-color: #b8b8b9;
+}
+
+.titulo-fortalezas-debilidades {
+  width: 290px;
+  height: 45px;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--blue-green);
+}
+
+.texto-fd {
+  width: 290px;
+  height: 192px;
+  margin: 45px 0 30px;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+}
+
 /*QUIENES SOMOS*/
-.Rectangle-3-Copy {
+.contenedor-quienes-somos {
   width: 320px;
   height: 2225px;
   margin: 1083px 0 0;
@@ -234,81 +248,6 @@ main {
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
-}
-
-.contenedor-fortalezas-debilidades {
-  width: 320px;
-  height: 579px;
-  margin: 504px 0 0;
-  padding: 30px 15px 45px;
-  opacity: 0.2;
-  background-color: #b8b8b9;
-}
-
-.Fortalezas {
-  width: 290px;
-  height: 45px;
-  font-family: Rubik;
-  font-size: 22px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.05;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--blue-green);
-}
-
-.texto-fortalezas {
-  width: 290px;
-  height: 192px;
-  margin: 45px 0 30px;
-  font-family: OpenSans;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: #54585a;
-}
-
-.cuadrado-fortalezas-debilidades {
-  width: 30px;
-  height: 30px;
-  margin: -20px 144.8px 564.8px 145.2px;
-  transform: rotate(45deg);
-  background-color: var(--white);
-}
-
-.Debilidades {
-  width: 290px;
-  height: 45px;
-  font-family: Rubik;
-  font-size: 22px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.05;
-  letter-spacing: normal;
-  text-align: center;
-  color: var(--blue-green);
-}
-
-.texto-debilidades {
-  width: 290px;
-  height: 192px;
-  margin: 45px 0 30px;
-  font-family: OpenSans;
-  font-size: 16px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: #54585a;
 }
 
 .footer {
