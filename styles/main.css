@@ -130,28 +130,28 @@
 }
 
 .cuadradoequipo {
+  position: relative;
   width: 30px;
   height: 30px;
-  margin: -17px 144.8px 564.8px 145.2px;
-  transform: rotate(45deg);
-  background-color: var(--white);
+  background-color: #fff;
+  transform: translate(0, 50%) rotate(45deg);
+  margin: auto;
 }
 
 /*FORTALEZAS DEBILIDADES*/
 
 .contenedor-fortalezas-debilidades {
   width: 320px;
-  height: 579px;
-  margin: 504px 0 0;
+  height: 600px;
   padding: 30px 15px 45px;
-  opacity: 0.2;
   background-color: #b8b8b9;
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .titulo-fortalezas-debilidades {
   width: 290px;
   height: 45px;
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 22px;
   font-weight: 500;
   font-stretch: normal;
@@ -162,11 +162,25 @@
   color: var(--blue-green);
 }
 
-.texto-fd {
+.texto-fortalezas {
   width: 290px;
-  height: 192px;
-  margin: 45px 0 30px;
-  font-family: OpenSans;
+  height: 150px;
+  margin: 0px 0 30px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+}
+.texto-debilidades {
+  width: 290px;
+  height: 245px;
+  margin: 0px 0 45px;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -179,17 +193,15 @@
 
 /*QUIENES SOMOS*/
 .contenedor-quienes-somos {
-  width: 320px;
-  height: 2225px;
-  margin: 1083px 0 0;
-  padding: 30px 15px 45px;
+  width: 193px;
   background-color: white;
 }
 .quienes-somos {
-  width: 193px;
+  display: inline-block;
+  width: 220px;
   height: 45px;
-  margin: 0 47.5px 30px 49.5px;
-  font-family: Rubik;
+  margin: 30px 50px;
+  font-family: "Rubik", sans-serif;
   font-size: 24px;
   font-weight: 500;
   font-stretch: normal;
@@ -198,6 +210,10 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
+}
+
+.article {
+  margin-left: 15px;
 }
 
 .img2 {
