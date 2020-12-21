@@ -8,12 +8,16 @@
   margin: 0;
   box-sizing: border-box;
   border: 2px solid green;
+  text-decoration: none;
 }
-/*.s1-home-320 {
+.full-container {
   width: 320px;
   height: 4025px;
   background-color: var(--white);
-<<<<<<< HEAD
+}
+.enlace {
+  color: white;
+}
 
 /* HEADER*/
 .header {
@@ -27,12 +31,26 @@
 .nombregrupo {
   width: 160px;
   height: 30px;
-  font-family: Rubik;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.88;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.header-lista {
+  display: inline;
+  width: 56px;
+  height: 30px;
+  margin: 0 15px 0 0;
+  font-family: "Rubik", sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
   letter-spacing: normal;
   color: #ffffff;
 }
@@ -44,50 +62,7 @@
   opacity: 0.9;
   background-color: var(--aqua);
 }
-HEAD
-li{
-  display: inline;
-}
-.headerequipo{
-  width: 56px;
-  height: 30px;
-  margin: 0 15px 0 0;
-  font-family: Rubik;
-  font-size: 11px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2;
-  letter-spacing: normal;
-  color: #ffffff;
-}
 
-.headerquienessomos {
-  width: 121px;
-  height: 30px;
-  margin: 0 15px;
-  font-family: Rubik;
-  font-size: 11px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2;
-  letter-spacing: normal;
-  color: #ffffff;
-}
-.headercontacto {
-  width: 80px;
-  height: 30px;
-  margin: 0 0 0 15px;
-  font-family: Rubik;
-  font-size: 11px;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2;
-  letter-spacing: normal;
-  color: #ffffff;
-}
 .hero {
   width: 320px;
   height: 130px;
@@ -115,9 +90,7 @@ li{
   margin: 0x 15px 0 15px;
 }
 /* MAIN*/
-main {
-  background-color: royalblue;
-}
+
 .contenedor-equipo {
   box-sizing: border-box;
   width: 320px;
@@ -130,8 +103,7 @@ main {
   width: 89px;
   height: 45px;
   margin: 0px 99.5px 15px 101.5px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 24px;
   font-weight: 500;
   font-stretch: normal;
@@ -146,8 +118,7 @@ main {
   width: 290px;
   height: 384px;
   margin: 0 15px 0 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
@@ -165,8 +136,49 @@ main {
   transform: rotate(45deg);
   background-color: var(--white);
 }
+
+/*FORTALEZAS DEBILIDADES*/
+
+.contenedor-fortalezas-debilidades {
+  width: 320px;
+  height: 579px;
+  margin: 504px 0 0;
+  padding: 30px 15px 45px;
+  opacity: 0.2;
+  background-color: #b8b8b9;
+}
+
+.titulo-fortalezas-debilidades {
+  width: 290px;
+  height: 45px;
+  font-family: Rubik;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.05;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--blue-green);
+}
+
+.texto-fd {
+  width: 290px;
+  height: 192px;
+  margin: 45px 0 30px;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #54585a;
+}
+
 /*QUIENES SOMOS*/
-.Rectangle-3-Copy {
+.contenedor-quienes-somos {
   width: 320px;
   height: 2225px;
   margin: 1083px 0 0;
@@ -260,4 +272,26 @@ main {
   padding: 30px 74px 45px;
   border: solid 1px #b8b8b9;
   background-color: #ffffff;
+}
+
+.container-img-logo {
+  position: relative;
+  width: 115.9px;
+  height: 45px;
+  margin: 30px 28.1px 0 28px;
+}
+
+.copyright {
+  width: 172px;
+  height: 20px;
+  margin: 0 0 20px;
+  font-family: OpenSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b8b8b9;
 }
