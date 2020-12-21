@@ -126,8 +126,7 @@ main {
   width: 89px;
   height: 45px;
   margin: 0px 99.5px 15px 101.5px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 24px;
   font-weight: 500;
   font-stretch: normal;
@@ -142,8 +141,7 @@ main {
   width: 290px;
   height: 384px;
   margin: 0 15px 0 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: normal;
   font-stretch: normal;
