@@ -13,9 +13,10 @@
   width: 320px;
   height: 4025px;
   background-color: var(--white);
-}
+<<<<<<< HEAD
+
 /* HEADER*/
-.header{
+.header {
   width: 320px;
   height: 60px;
   padding: 15px 80px;
@@ -23,7 +24,7 @@
   background-color: var(--blue-green);
 }
 
-.nombregrupo{
+.nombregrupo {
   width: 160px;
   height: 30px;
   font-family: Rubik;
@@ -35,7 +36,7 @@
   letter-spacing: normal;
   color: #ffffff;
 }
-.headercontent{
+.headercontent {
   width: 320px;
   height: 45px;
   margin: 6px 0 0;
@@ -43,6 +44,7 @@
   opacity: 0.9;
   background-color: var(--aqua);
 }
+HEAD
 li{
   display: inline;
 }
@@ -60,7 +62,7 @@ li{
   color: #ffffff;
 }
 
-.headerquienessomos{ 
+.headerquienessomos {
   width: 121px;
   height: 30px;
   margin: 0 15px;
@@ -88,13 +90,12 @@ li{
 }
 .hero {
   width: 320px;
-  height: 421px;
-  
+  height: 130px;
 }
 
 .container-img {
   width: 320px;
-  height: 4025px;
+  height: 126px;
 }
 .img {
   width: 100%;
@@ -144,7 +145,7 @@ main {
 .texto-equipo {
   width: 290px;
   height: 384px;
-  margin: 15px 0 0;
+  margin: 0 15px 0 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 16px;
@@ -160,7 +161,7 @@ main {
 .cuadradoequipo {
   width: 30px;
   height: 30px;
-  margin: -20px 144.8px 564.8px 145.2px;
+  margin: -17px 144.8px 564.8px 145.2px;
   transform: rotate(45deg);
   background-color: var(--white);
 }
@@ -198,7 +199,8 @@ main {
   width: 147px;
   height: 45px;
   margin: 1px 70.5px 0 72.5px;
-  font-family: open sans;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 20px;
   font-weight: normal;
   font-stretch: normal;
