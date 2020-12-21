@@ -7,7 +7,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  border: 2px solid green;
+  /*border: 2px solid green;*/
   text-decoration: none;
 }
 .full-container {
@@ -24,7 +24,7 @@
   width: 320px;
   height: 60px;
   padding: 15px 80px;
-  opacity: 0.95;
+  background: rgba(0, 0, 0, 0.95);
   background-color: var(--blue-green);
 }
 
@@ -57,9 +57,8 @@
 .headercontent {
   width: 320px;
   height: 45px;
-  margin: 6px 0 0;
   padding: 8px 17px 7px 16px;
-  opacity: 0.9;
+  background: rgba(0, 0, 0, 0.9);
   background-color: var(--aqua);
 }
 
@@ -70,7 +69,9 @@
 
 .container-img {
   width: 320px;
-  height: 126px;
+  height: 421px;
+  background-image: url("../images/wecancc.png");
+  background-color: var(--aqua);
 }
 .img {
   width: 100%;
@@ -78,7 +79,7 @@
 
 .lema {
   font-size: 15px;
-  font-family: open sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   background-color: white;
   width: 260px;
@@ -95,6 +96,7 @@
   box-sizing: border-box;
   width: 320px;
   height: 450px;
+  margin-top: 340px;
   padding: 30px 15px;
   background-color: var(--white);
 }
@@ -278,7 +280,7 @@
   height: 60px;
   margin: 20px -60px 30px;
   opacity: 0.75;
-  font-family: OpenSans;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 600;
   font-stretch: normal;
@@ -320,7 +322,7 @@
   width: 172px;
   height: 20px;
   margin: 0 0 20px;
-  font-family: OpenSans;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
