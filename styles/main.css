@@ -43,12 +43,15 @@
   opacity: 0.9;
   background-color: var(--aqua);
 }
+li{
+  display: inline;
+}
 .headerequipo{
   width: 56px;
   height: 30px;
   margin: 0 15px 0 0;
   font-family: Rubik;
-  font-size: 15px;
+  font-size: 11px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -58,14 +61,11 @@
 }
 
 .headerquienessomos{ 
-  position: absolute;
-  top: 80px;
-  left: 100px;
   width: 121px;
   height: 30px;
   margin: 0 15px;
   font-family: Rubik;
-  font-size: 15px;
+  font-size: 11px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -74,14 +74,11 @@
   color: #ffffff;
 }
 .headercontacto {
-  position: absolute;
-  top: 80px;
-  left: 200px ;
   width: 80px;
   height: 30px;
   margin: 0 0 0 15px;
   font-family: Rubik;
-  font-size: 15px;
+  font-size: 11px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
