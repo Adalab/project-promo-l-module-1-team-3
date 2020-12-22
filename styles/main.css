@@ -3,6 +3,7 @@
   --blue-green: #099d8dff;
   --black: #000000;
   --aqua: #14d9c4;
+  --cool-grey: #b8b8b9;
 }
 * {
   margin: 0;
@@ -147,7 +148,7 @@
   width: 320px;
   height: 600px;
   padding: 30px 15px 45px;
-  background-color: #b8b8b9;
+  background-color: var(--cool-grey);
   background: rgba(0, 0, 0, 0.1);
 }
 
