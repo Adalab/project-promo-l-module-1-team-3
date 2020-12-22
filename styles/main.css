@@ -39,14 +39,14 @@
   line-height: 1.88;
   letter-spacing: normal;
   color: #ffffff;
+  margin-left: 15px;
 }
 .header-lista {
   display: inline;
   width: 56px;
   height: 30px;
-  margin: 0 15px 0 0;
   font-family: "Rubik", sans-serif;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -69,8 +69,8 @@
 
 .container-img {
   width: 320px;
-  height: 421px;
-  background-image: url("../images/wecancc.png");
+  height: 306px;
+  /*background-image: url("../images/wecancc.png");*/
   background-color: var(--aqua);
 }
 .img {
@@ -85,7 +85,7 @@
   width: 260px;
   text-align: center;
   position: relative;
-  left: 15px;
+  left: 30px;
   bottom: 25px;
   padding: 15px;
   margin: 0x 15px 0 15px;
@@ -96,7 +96,7 @@
   box-sizing: border-box;
   width: 320px;
   height: 450px;
-  margin-top: 340px;
+  margin-top: 235px;
   padding: 30px 15px;
   background-color: var(--white);
 }
