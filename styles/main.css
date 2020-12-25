@@ -16,24 +16,24 @@
   height: 3600px;
   background-color: var(--white);
 }
-.enlace {
+.link {
   color: white;
 }
 
 /* HEADER*/
 .header {
-  width: 320px;
+  width: 100%;
   height: 60px;
   padding: 15px 80px;
   background: rgba(0, 0, 0, 0.95);
   background-color: var(--blue-green);
 }
 
-.nombregrupo {
-  width: 160px;
+.nameofgroup {
+  width: 100%;
   height: 30px;
   font-family: "Rubik", sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -42,13 +42,13 @@
   color: #ffffff;
   margin-left: 15px;
 }
-.header-lista {
+.header-list {
   display: inline;
   margin-left: 6px;
-  width: 56px;
+  width: 100%;
   height: 30px;
   font-family: "Rubik", sans-serif;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -57,7 +57,7 @@
   color: #ffffff;
 }
 .headercontent {
-  width: 320px;
+  width: 100%;
   height: 45px;
   padding: 8px 17px 7px 16px;
   background: rgba(0, 0, 0, 0.9);
@@ -65,12 +65,12 @@
 }
 
 .hero {
-  width: 320px;
+  width: 100%;
   height: 130px;
 }
 
 .container-img {
-  width: 320px;
+  width: 100%;
   height: 306px;
   /*background-image: url("../images/wecancc.png");*/
   background-color: var(--aqua);
@@ -79,12 +79,12 @@
   width: 100%;
 }
 
-.lema {
-  font-size: 15px;
+.claim {
+  font-size: 0.9375rem;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   background-color: white;
-  width: 260px;
+  width: 100%;
   text-align: center;
   position: relative;
   left: 30px;
