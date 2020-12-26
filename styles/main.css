@@ -296,6 +296,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   border: solid 1px #b8b8b9;
   background-color: #ffffff;
 }
@@ -313,7 +314,7 @@
 .footer {
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   opacity: 0.75;
   font-family: "Open Sans", sans-serif;
@@ -335,8 +336,5 @@
 }
 
 .img-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
 }
