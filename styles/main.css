@@ -292,7 +292,7 @@
 }
 
 /*footer*/
-.contenedor-footer {
+.container-footer {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -324,13 +324,13 @@
   color: #54585a;
 }
 
-.footer-lista {
+.footer-list {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
   text-transform: uppercase;
 }
-.enlace-footer {
+.link-footer {
   color: #54585a;
 }
 
