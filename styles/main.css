@@ -30,15 +30,26 @@
 /* HEADER*/
 .header {
   width: 100%;
-  height: 60px;
+  height: 105px;
   padding: 15px 80px;
   background: rgba(0, 0, 0, 0.95);
   background-color: var(--blue-green);
   opacity: 0.95;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  position: fixed;
+  z-index: 1500;
+}
+.nav-class{
+  width: 100%;
+  height: 45px;
+  background-color: var(--aqua);
+  opacity: 0.95;
+  position: absolute;
+  bottom: 0;
+
 }
 
 .nameofgroup {
@@ -60,7 +71,7 @@
   width: 100%;
   height: 30px;
   font-family: "Rubik", sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
   line-height: 2;
