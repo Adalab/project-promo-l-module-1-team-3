@@ -314,6 +314,7 @@
 .footer {
   display: flex;
   width: 100%;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   opacity: 0.75;
