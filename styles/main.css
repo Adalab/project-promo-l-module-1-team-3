@@ -20,7 +20,6 @@
 .full-container {
   width: 100%;
   background-color: var(--white);
-
 }
 .link {
   color: white;
@@ -42,14 +41,13 @@
   position: fixed;
   z-index: 1500;
 }
-.nav-class{
+.nav-class {
   width: 100%;
   height: 45px;
   background-color: var(--aqua);
   opacity: 0.95;
   position: absolute;
   bottom: 0;
-
 }
 
 .nameofgroup {
@@ -62,9 +60,8 @@
   font-style: normal;
   line-height: 1.88;
   letter-spacing: normal;
-  color: #ffffff; 
+  color: #ffffff;
   text-align: center;
-  
 }
 .header-list {
   align-items: center;
@@ -81,7 +78,7 @@
 }
 .headercontainer {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   width: 100%;
   justify-content: space-around;
   height: 45px;
@@ -97,7 +94,7 @@
 .container-img {
   width: 100%;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
   /*background-image: url("../images/wecancc.png");*/
 }
 .img {
@@ -111,7 +108,7 @@
   background-color: white;
   width: 80%;
   text-align: center;
-  position: relative; 
+  position: relative;
   left: 40px;
   bottom: 25px;
   padding: 15px;
@@ -358,4 +355,6 @@
 
 .img-logo {
   width: 100%;
+  width: 115.9px;
+  height: 45px;
 }
