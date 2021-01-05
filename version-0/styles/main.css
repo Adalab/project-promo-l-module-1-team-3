@@ -75,7 +75,6 @@
   width: 100%;
   justify-content: space-around;
   padding: 8px 17px 7px 16px;
-  background: rgba(0, 0, 0, 0.9);
   background-color: var(--aqua);
 }
 
@@ -377,6 +376,8 @@
 }
  .claim{
    width: 40%;
+   opacity: 0.8;
+   height: 90px;
  }
   /*TEAM*/
 
@@ -412,6 +413,16 @@
   }
 }
 @media all and (min-width: 1200px) {
+
+/*HEADER*/
+
+.nameofgroup {
+  width: 75%;
+
+ }
+.claim{
+  opacity: 0.8;
+ }
   /*TEAM*/
 
   .team-container {
