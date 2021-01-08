@@ -1,0 +1,115 @@
+/*footer*/
+.container-footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: solid 1px #b8b8b9;
+  background-color: #ffffff;
+}
+.copyright {
+  margin: 30px 0 20px 0;
+  display: flex;
+  width: 172px;
+  height: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  text-align: center;
+  color: #b8b8b9;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  margin: 0 0 30px 0;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.75;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.43;
+  text-align: center;
+  color: #54585a;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  width: 114px;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+.link-footer {
+  color: #54585a;
+  text-decoration: none;
+}
+
+.img-logo {
+  width: 115.9px;
+  height: 45px;
+  margin-bottom: 45px;
+}
+
+@media all and (min-width: 768px) {
+  /*FOOTER*/
+  .container-footer {
+    justify-content: flex-start;
+  }
+  .copyright {
+    width: 50%;
+    height: 28px;
+    justify-content: start;
+    padding-left: 45px;
+    //margin: 6px 182px 15px 0px;
+    color: var(--cool-grey);
+  }
+  .footer {
+    width: 50%;
+    padding-top: 24px;
+    padding-right: 45px;
+    margin-bottom: 0;
+    align-items: flex-end;
+  }
+  .footer-list {
+    width: 50%;
+    //margin: 8px 8px 8px 182px;
+    justify-content: flex-end;
+  }
+  .img-logo {
+    width: 50%;
+    //height: 0;
+    margin: 0;
+    padding: 0 0 0 45px;
+    border: 0;
+    background-color: 0;
+    transform: translate(0px, -15px);
+  }
+}
+@media all and (min-width: 1200px) {
+  .footer-list {
+    width: 324px;
+    height: 90px;
+    margin: 8 8 8 182px;
+    text-align: right;
+  }
+  .img-logo {
+    width: 0;
+    height: 0;
+
+    padding: 0;
+
+    background-color: 0;
+  }
+  .copyright {
+    width: 172px;
+    height: 28px;
+    margin: 6px 182px 15px 0px;
+    color: var(--cool-grey);
+  }
+}
