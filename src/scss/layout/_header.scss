@@ -1,7 +1,7 @@
 /*HEADER*/
 .header {
     width: 100%;
-    background-color: $color-secondary;
+    background-color: $blue-green;
     opacity: 0.95;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
   .nameofgroup {
     padding: 15px 0;
     width: 100%;
-    font-family: $font-main;
+    font-family: $font-title;
     font-size: 1rem;
     font-weight: 500;
     font-stretch: normal;
@@ -32,7 +32,7 @@
   .header-list {
     align-items: center;
     width: 100%;
-    font-family: $font-main;
+    font-family: $font-title;
     font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
@@ -50,35 +50,7 @@
     background-color: $aqua;
   }
   
-  .hero {
-    width: 100%;
-    padding-top: 104px;
-  }
   
-  .container-img {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    /*background-image: url("../images/wecancc.png");*/
-  }
-  .img {
-    width: 100%;
-  }
-  
-  .claim {
-    font-family: $font-paragraph;
-    font-size: 0.9375rem;
-    font-weight: 600px;
-    background-color: $white;
-    width: 80%;
-    text-align: center;
-    position: relative;
-    left: 40px;
-    bottom: 25px;
-    padding: 15px;
-    margin: 0x 15px 0 15px;
-    justify-content: center;
-    align-items: center;
   }
   @media all and (min-width: 768px) {
     /*HEADER*/
@@ -96,26 +68,10 @@
       right: 0;
       top: 20px;
     }
-    .hero {
-      padding-top: 0;
-    }
+
     .nameofgroup {
       text-align: left;
     }
-    .claim {
-      width: 40%;
-    }
-  }
-  .hero {
-    padding-top: 0;
-  }
-  .nameofgroup {
-    text-align: left;
-  }
-  .claim {
-    width: 40%;
-    opacity: 0.8;
-    height: 90px;
   }
   @media all and (min-width: 1200px) {
     /*HEADER*/
@@ -123,6 +79,6 @@
     .nameofgroup {
       width: 75%;
     }
-    .claim {
-      opacity: 0.8;
-    }
+   
+  }
+  
