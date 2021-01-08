@@ -17,14 +17,14 @@
   font-weight: 500;
   text-transform: uppercase;
   line-height: 1.88;
-  letter-spacing: normal;
   text-align: center;
   color: var(--blue-green);
 }
 .colorlogo {
   color: var(--blue-green);
 }
-.article {
+.article-left,
+.article-right {
   display: flex;
   width: 100%;
   flex-direction: column;
