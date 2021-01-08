@@ -1,104 +1,105 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>wecancodeit</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./assets/css/main.css" />
-  <title>wecancodeit</title>
-</head>
+  <body>
+    <div class="full-container">
+      <!--HEADER-->
+      <include src="./partials/header.html"></include>
+      <main>
+        <!--hero-->
+        <section class="hero">
+          <div class="container-img">
+            <img
+              class="img"
+              src="./assets/images/wecan.png"
+              alt="We can code it"
+            />
+            <h2 class="claim">If you can dream it, we can code it.</h2>
+          </div>
+        </section>
 
-<body>
-  <div class="full-container">
-    <!--HEADER-->
-    <include src="./partials/header.html"></include>
-    <main>
-      <!--hero-->
-      <section class="hero">
-        <div class="container-img">
-          <img class="img" src="./assets/images/wecan.png" alt="We can code it">
-          <h2 class="claim">If you can dream it, we can code it.</h2>
-        </div>
-      </section>
+        <include src="./partials/team.html"></include>
 
-      <p class="team-text team-p2">
-        La flexibilidad ante el cambio y el interés por el aprendizaje
-        continuo nos han traído hasta aquí, y estamos seguras de que nos
-        acompañarán a todos aquellos sitios a los que aún estamos por
-        llegar.
-      </p>
-      <div class="team-square"></div>
-  </div>
-  <div class="sw-container">
-    <section class="s-container">
-      <h3 class="sw-title">Fortalezas</h3>
-      <p class="s-text">
-        Somos cuatro chicas de diferentes profesiones que nos une el
-        “gusanillo” por el código, que estamos decididas a reprogramar
-        nuestro futuro laboral. Con pasión, ganas y mucho esfuerzo
-        recorreremos este trepidante camino.
-      </p>
-    </section>
+        <section id="ir-a-quienes-somos">
+          <div class="adalaberscontainer">
+            <h2 class="adalabers">Quienes somos</h2>
 
-    <section class="w-container">
-      <h3 class="sw-title">Debilidades</h3>
-      <p class="w-text">
-        En realidad no tenemos ninguna debilidad, nosotras las
-        consideramos oportunidades de mejora, al igual que en cualquier
-        organización existen mejoras aplicables al quehacer cotidiano. Por
-        tanto, en la actualidad en donde el cambio ya no constituye un
-        concepto novedoso, aplicamos la mejora continua, es decir, la
-        búsqueda de la perfección a través de mejoras graduales y
-        sostenidas.
-      </p>
-    </section>
-  </div>
-  </section>
-  <section id="ir-a-quienes-somos">
-    <div class="adalaberscontainer">
-      <h2 class="adalabers">Quienes somos</h2>
-
-      <include src="partials/adalaber.html" imageadalaber="assets/images/AnaDiz.png" alternativetext="Ana Diz image"
-        name="Ana Diz" description="Empecé a sentir interés por el código en un taller de programación cuando
+            <include
+              src="partials/adalaber.html"
+              imageadalaber="assets/images/AnaDiz.png"
+              alternativetext="Ana Diz image"
+              name="Ana Diz"
+              description="Empecé a sentir interés por el código en un taller de programación cuando
             hice el Master de Turismo Electrónico, aunque supone un gran cambio y consiente de que no es un reto
             para nada sencillo, tomé la decisión de unirme a esta aventura de poder convertirme en programadora."
-        link-twitter="" link-linkedin="https://www.linkedin.com/in/ana-diz-bermejo-3aa3a5162/"
-        link-github="https://github.com/anadiz13" link-mail="mailto:ana_diz137@hotmail.es" articleClass="article-left">
-      </include>
+              link-twitter=""
+              link-linkedin="https://www.linkedin.com/in/ana-diz-bermejo-3aa3a5162/"
+              link-github="https://github.com/anadiz13"
+              link-mail="mailto:ana_diz137@hotmail.es"
+              articleClass="article-left"
+            >
+            </include>
 
-      <include src="partials/adalaber.html" imageadalaber="assets/images/EstherLopez.png"
-        alternativetext="Esther López image" name="Esther López"
-        description="Programadora front-end junior in progress. Tras estudiar magisterio y estar varios años trabajando en sectores que no tenian nada que ver con mi formación decido reinventarme y dar el paso a la programación. ¡Nunca pierdo las ganas de seguir aprendiendo!"
-        link-twitter="" link-linkedin="https://www.linkedin.com/in/esther-l%C3%B3pez-cordoncillo-a1902985/"
-        link-github="https://github.com/EstLopCor" link-mail="mailto:estherlopezcordoncillo@gmail.com"
-        articleClass="article-right"></include>
+            <include
+              src="partials/adalaber.html"
+              imageadalaber="assets/images/EstherLopez.png"
+              alternativetext="Esther López image"
+              name="Esther López"
+              description="Programadora front-end junior in progress. Tras estudiar magisterio y estar varios años trabajando en sectores que no tenian nada que ver con mi formación decido reinventarme y dar el paso a la programación. ¡Nunca pierdo las ganas de seguir aprendiendo!"
+              link-twitter=""
+              link-linkedin="https://www.linkedin.com/in/esther-l%C3%B3pez-cordoncillo-a1902985/"
+              link-github="https://github.com/EstLopCor"
+              link-mail="mailto:estherlopezcordoncillo@gmail.com"
+              articleClass="article-right"
+            ></include>
 
-      <include src="partials/adalaber.html" imageadalaber="assets/images/MarinaDelgado.png"
-        alternativetext="Marina Delgado image " name="Marina Delgado" description="De Licenciada en Ciencias del trabajo a programadora. ¡Vaya cambio! Y es que he visto que la programación está en todo y la aplicación de la tecnología puede resultar
+            <include
+              src="partials/adalaber.html"
+              imageadalaber="assets/images/MarinaDelgado.png"
+              alternativetext="Marina Delgado image "
+              name="Marina Delgado"
+              description="De Licenciada en Ciencias del trabajo a programadora. ¡Vaya cambio! Y es que he visto que la programación está en todo y la aplicación de la tecnología puede resultar
           incluso muy interesante, por lo que decidí que mi sueño era más grande que los miedos que anidaban en mi
-          cabeza y me lancé a esta aventura Adalab." link-twitter=""
-        link-linkedin="https://www.linkedin.com/in/marinadelgadoesquinas/"
-        link-github="https://github.com/Marinadelgado88" link-mail="mailto:marinadelges@gmail.com"
-        articleClass="article-left"></include>
+          cabeza y me lancé a esta aventura Adalab."
+              link-twitter=""
+              link-linkedin="https://www.linkedin.com/in/marinadelgadoesquinas/"
+              link-github="https://github.com/Marinadelgado88"
+              link-mail="mailto:marinadelges@gmail.com"
+              articleClass="article-left"
+            ></include>
 
-      <include src="partials/adalaber.html" imageadalaber="assets/images/MercedesFe.png"
-        alternativetext="Mercedes Fe image" name="Mercedes Fe" description="Siempre he sido curiosa y decidida, y desde que supe que yo también
+            <include
+              src="partials/adalaber.html"
+              imageadalaber="assets/images/MercedesFe.png"
+              alternativetext="Mercedes Fe image"
+              name="Mercedes Fe"
+              description="Siempre he sido curiosa y decidida, y desde que supe que yo también
           podía
           programar lo tuve claro. Así fue como, tras formarme en audiovisuales, llegué a Adalab, con
           el
-          propósito de convertirme en programadora y hacer de ello mi profesión." link-twitter="" link-linkedin=""
-        link-github="https://github.com/mermfb" link-mail="mailto:mermfb@gmail.com" articleClass="article-right">
-      </include>
+          propósito de convertirme en programadora y hacer de ello mi profesión."
+              link-twitter=""
+              link-linkedin=""
+              link-github="https://github.com/mermfb"
+              link-mail="mailto:mermfb@gmail.com"
+              articleClass="article-right"
+            >
+            </include>
+          </div>
+        </section>
+      </main>
+      <include src="./partials/footer.html"></include>
     </div>
-
-  </section>
-
-  </main>
-  <include src="./partials/footer.html"></include>
-  </div>
-</body>
-
+  </body>
 </html>
