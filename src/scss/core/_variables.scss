@@ -1,6 +1,11 @@
-// fonts
-$font-main: 'Roboto', sans-serif;
-
-// colors
-$color-bg: #f3f4f5;
-$color-secondary: #999;
+:root {
+  --white: white;
+  --blue-green: #099d8dff;
+  --black: #000000;
+  --aqua: #14d9c4;
+  --cool-grey: #b8b8b9;
+  --dark-grey: #54585a;
+  --back-grey: #f1f1f1;
+  font-size: 1rem;
+  width: 100%;
+}
