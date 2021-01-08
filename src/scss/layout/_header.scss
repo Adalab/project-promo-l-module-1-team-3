@@ -1,7 +1,7 @@
 /*HEADER*/
 .header {
     width: 100%;
-    background-color: var(--blue-green);
+    background-color: $color-secondary;
     opacity: 0.95;
     display: flex;
     flex-direction: column;
@@ -12,16 +12,14 @@
   }
   .nav-class {
     width: 100%;
-    background-color: var(--aqua);
+    background-color: $aqua;
     opacity: 0.95;
-    /*position: absolute;
-    bottom: 0;*/
   }
   
   .nameofgroup {
     padding: 15px 0;
     width: 100%;
-    font-family: "Rubik", sans-serif;
+    font-family: $font-main;
     font-size: 1rem;
     font-weight: 500;
     font-stretch: normal;
@@ -34,12 +32,12 @@
   .header-list {
     align-items: center;
     width: 100%;
-    font-family: "Rubik", sans-serif;
+    font-family: $font-main;
     font-size: 15px;
     font-weight: 500;
     text-transform: uppercase;
     line-height: 2;
-    color: #ffffff;
+    color: $white;
     list-style-type: none;
     text-align: center;
   }
@@ -49,7 +47,7 @@
     width: 100%;
     justify-content: space-around;
     padding: 8px 17px 7px 16px;
-    background-color: var(--aqua);
+    background-color: $aqua;
   }
   
   .hero {
@@ -68,10 +66,10 @@
   }
   
   .claim {
-    font-family: "Open Sans" sans-serif;
+    font-family: $font-paragraph;
     font-size: 0.9375rem;
     font-weight: 600px;
-    background-color: white;
+    background-color: $white;
     width: 80%;
     text-align: center;
     position: relative;
@@ -92,7 +90,7 @@
     }
   
     .headercontainer {
-      background-color: var(--blue-green);
+      background-color: $blue-green;
       position: absolute;
       width: 55%;
       right: 0;
