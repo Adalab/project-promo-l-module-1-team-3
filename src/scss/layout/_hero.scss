@@ -1,0 +1,51 @@
+.hero {
+    width: 100%;
+  }
+  
+  .container-img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /*background-image: url("../images/wecancc.png");*/
+  }
+  .img {
+    width: 100%;
+  }
+  
+  .claim {
+    font-family: $font-paragraph;
+    font-size: 0.9375rem;
+    font-weight: 600px;
+    background-color: $white;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    left: 40px;
+    bottom: 25px;
+    padding: 15px;
+    margin: 0x 15px 0 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media all and (min-width: 768px) {
+      /*HERO*/
+    .hero {
+        padding-top: 0;
+      }
+      .nameofgroup {
+        text-align: left;
+      }
+      .claim {
+        width: 40%;
+        opacity: 0.8;
+        height: 90px;
+      }
+    }
+    @media all and (min-width: 1200px) {
+        /*HERO*/
+    
+        .claim {
+          opacity: 0.8;
+        }
+      }
