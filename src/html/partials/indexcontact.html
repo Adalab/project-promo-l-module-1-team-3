@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/">
+  <title>wecancodeit</title>
+</head>
+
+<body>
+  
+    <!--HEADER-->
+    <include src="./partials/header.html"></include>
+    <!--MAIN-->
+    <main>
+      <!--hero-->
+      <include src="./partials/hero.html"></include>
+     <!--CONTACT-->
+      <div class="contact">
+        <h2 class="contact-title">CONTACTO</h2>
+        <p class="contact-text">
+          Contactanos y estaremos encantadas de proporcionarte la información que necesitas. Gracias.
+        </p>
+        <h3>Todos los campos marcados con * son obligatorios</h3>
+        <form action="https://formspree.io/f/mdopyzgy" method="post">
+          <label for="firstName">Nombre completo *</label>
+          <input placeholder="Nombre..." id="firstName" type="text" name="firstName" required/>
+      
+          <label for="emailaddress">Email *</label>
+          <input placeholder="Escribe aquí tus apellidos..." id="emailaddress" type="email" name="emailaddress"  value="nombre.apellidos@mail.com" required/>
+      
+          <label for="telephone">Teléfono</label>
+          <input type="tel" id="telephone" name="telephone" placeholder="Ej:123456789" pattern="[0-9]{9}" />
+      
+         <label for="comments">Mensaje *</label>
+         <textarea id="comments" name="comments" rows="1" cols="1" placeholder="¿Qué necesitas?" required></textarea>
+      
+          <input type="submit" value="Enviar info" />
+        </form>
+    </main>
+     <!--FOOTER-->
+     <include src="./partials/footer.html"></include>
+     </body>
+     </html>
+
+

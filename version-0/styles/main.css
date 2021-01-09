@@ -461,7 +461,7 @@
   .footer-list {
     width: 324px;
     height: 90px;
-    margin: 8 8 8 182px;
+    margin: 8px 8px 8px 182px;
     text-align: right;
   }
   .img-logo {
@@ -470,6 +470,32 @@
     margin: 0;
     padding: 0;
     border: 0;
+    background-color: 0;
+  }
+  .copyright {
+    width: 172px;
+    height: 28px;
+    margin: 6px 182px 15px 0px;
+    color: var(--cool-grey);
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .nameofgroup {
+    width: 75%;
+  }
+  .footer-list {
+    width: 324px;
+    height: 90px;
+    margin: 8 8 8 182px;
+    text-align: right;
+  }
+  .img-logo {
+    width: 0;
+    height: 0;
+
+    padding: 0;
+
     background-color: 0;
   }
   .copyright {
