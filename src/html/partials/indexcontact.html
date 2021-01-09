@@ -27,8 +27,25 @@
           Contactanos y estaremos encantadas de proporcionarte la información que necesitas. Gracias.
         </p>
         <h3>Todos los campos marcados con * son obligatorios</h3>
-        <include src="./partials/contact.html"></include>
+        <form action="https://formspree.io/f/mdopyzgy" method="post">
+          <label for="firstName">Nombre completo *</label>
+          <input placeholder="Nombre..." id="firstName" type="text" name="firstName" required/>
+      
+          <label for="emailaddress">Email *</label>
+          <input placeholder="Escribe aquí tus apellidos..." id="emailaddress" type="email" name="emailaddress"  value="nombre.apellidos@mail.com" required/>
+      
+          <label for="telephone">Teléfono</label>
+          <input type="tel" id="telephone" name="telephone" placeholder="Ej:123456789" pattern="[0-9]{9}" />
+      
+         <label for="comments">Mensaje *</label>
+         <textarea id="comments" name="comments" rows="1" cols="1" placeholder="¿Qué necesitas?" required></textarea>
+      
+          <input type="submit" value="Enviar info" />
+        </form>
     </main>
      <!--FOOTER-->
      <include src="./partials/footer.html"></include>
+     </body>
+     </html>
+
 
