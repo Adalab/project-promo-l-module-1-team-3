@@ -1,5 +1,9 @@
 .hero {
     width: 100%;
+    @media all and (min-width: 768px) {
+        padding-top: 0;
+      }
+
   }
   
   .container-img {
@@ -26,26 +30,16 @@
     margin: 0x 15px 0 15px;
     justify-content: center;
     align-items: center;
-  }
-
-  @media all and (min-width: 768px) {
-      /*HERO*/
-    .hero {
-        padding-top: 0;
-      }
-      .nameofgroup {
-        text-align: left;
-      }
-      .claim {
-        width: 40%;
-        opacity: 0.8;
-        height: 90px;
-      }
+    @media all and (min-width: 768px) {
+      width: 40%;
+      opacity: 0.8;
+      height: 90px;
     }
     @media all and (min-width: 1200px) {
-        /*HERO*/
+        opacity: 0.8;
+    }
+  }
+
+ 
     
-        .claim {
-          opacity: 0.8;
-        }
-      }
+   
