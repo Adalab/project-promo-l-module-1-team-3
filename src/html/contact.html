@@ -22,11 +22,13 @@
       <include src="./partials/hero.html"></include>
      <!--CONTACT-->
       <div class="contact">
-        <h2 class="contact-title">CONTACTO</h2>
+        <h2 class="contact-title">contacto</h2>
+        <div class="text-container">
         <p class="contact-text">
-          Contactanos y estaremos encantadas de proporcionarte la información que necesitas. Gracias.
+          Contactanos y estaremos encantadas de proporcionarte la información que necesites. Gracias.
         </p>
-        <h3>Todos los campos marcados con * son obligatorios</h3>
+        <p class="small-letter">Todos los campos marcados con * son obligatorios</p>
+        </div>
         <form action="https://formspree.io/f/mdopyzgy" method="post">
           <label for="firstName">Nombre completo *</label>
           <input placeholder="Nombre..." id="firstName" type="text" name="firstName" required/>
@@ -38,7 +40,7 @@
           <input type="tel" id="telephone" name="telephone" placeholder="Ej:123456789" pattern="[0-9]{9}" />
       
          <label for="comments">Mensaje *</label>
-         <textarea id="comments" name="comments" rows="1" cols="1" placeholder="¿Qué necesitas?" required></textarea>
+         <textarea id="comments" name="comments" rows="4" cols="12" placeholder="¿Qué necesitas?" required></textarea>
       
           <input type="submit" value="Enviar info" />
         </form>
