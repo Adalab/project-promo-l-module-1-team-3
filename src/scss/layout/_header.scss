@@ -8,6 +8,13 @@
   align-items: center;
   position: fixed;
   z-index: 1500;
+
+  @media all and (min-width: 768px) {
+      display: flex;
+      align-items: center;
+      padding: 15px 45px 14px;
+      opacity: 0.95;
+    }
 }
 .nav-class {
   width: 100%;
@@ -27,6 +34,13 @@
   letter-spacing: normal;
   color: $white;
   text-align: center;
+
+  @media all and (min-width: 768px) {
+  text-align: left;
+  }
+  @media all and (min-width: 1200px) {
+  width: 75%;    
+  }
 }
 .header-list {
   align-items: center;
@@ -46,33 +60,12 @@
   justify-content: space-around;
   padding: 8px 17px 7px 16px;
   background-color: $aqua;
-}
 
-@media all and (min-width: 768px) {
-  /*HEADER*/
-  .header {
-    display: flex;
-    align-items: center;
-    padding: 15px 45px 14px;
-    opacity: 0.95;
-  }
-
-  .headercontainer {
+  @media all and (min-width: 768px) {
     background-color: $blue-green;
     position: absolute;
     width: 55%;
     right: 0;
     top: 20px;
-  }
-
-  .nameofgroup {
-    text-align: left;
-  }
-}
-@media all and (min-width: 1200px) {
-  /*HEADER*/
-
-  .nameofgroup {
-    width: 75%;
   }
 }
