@@ -2,9 +2,12 @@
 
 #ir-a-equipo {
   scroll-margin-top: 133px;
+  @media all and (min-width: 768px) {
+    scroll-margin-top: 88px;
+  }
 }
 
-.team-container {
+.team {
   width: 100%;
   padding: 30px 15px 0px 15px;
   display: flex;
@@ -12,32 +15,47 @@
   background-color: $white;
   justify-content: center;
   align-items: center;
+  @media all and (min-width: 768px) {
+    padding: 45px 45px 60px 45px;
+    margin: 0;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 45px 299px 60px 300px;
+    margin: 0;
+  }
 
-  .team-title {
+  &__title {
     font-family: $font-title;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 45px;
     color: $blue-green;
     text-transform: uppercase;
+    @media all and (min-width: 768px) {
+      margin-bottom: 15px;
+    }
   }
 
-  .team-text {
-    width: 100%;
+  &__text {
     font-family: $font-paragraph;
     font-size: 1rem;
     line-height: 24px;
     text-align: center;
     color: $dark-grey;
+
+    &--p2 {
+      font-family: $font-paragraph;
+      font-size: 1rem;
+      line-height: 24px;
+      text-align: center;
+      color: $dark-grey;
+      margin-top: 10px;
+    }
   }
 
-  .team-p2 {
-    margin-top: 10px;
-  }
-
-  .team-square {
+  &__square {
     box-sizing: border-box;
-    width: 29.9px;
+    width: 30px;
     height: 30px;
     transform: rotate(45deg);
     position: relative;
@@ -45,98 +63,249 @@
     background-color: $white;
     display: flex;
     justify-content: center;
-  }
-}
-/*FORTALEZAS DEBILIDADES*/
-
-.sw-container {
-  width: 100%;
-  padding: 30px 15px 45px;
-  background-color: $back-grey;
-
-  .sw-title {
-    width: 100%;
-    font-family: $font-title;
-    font-size: 1.38rem;
-    font-weight: 500;
-    line-height: 2.05;
-    text-align: center;
-    color: $blue-green;
-  }
-
-  .s-text {
-    width: 100%;
-    margin-bottom: 30px;
-    font-family: $font-paragraph;
-    font-size: 1rem;
-    line-height: 1.5;
-    text-align: center;
-    color: $dark-grey;
-  }
-  .w-text {
-    width: 100%;
-    font-family: $font-paragraph;
-    font-size: 1rem;
-    line-height: 1.5;
-    text-align: center;
-    color: $dark-grey;
-  }
-}
-
-@media all and (min-width: 768px) {
-  #ir-a-equipo {
-    scroll-margin-top: 88px;
-  }
-  .team-container {
-    padding: 45px 45px 60px 45px;
-    margin: 0;
-
-    .team-title {
-      margin-bottom: 15px;
-    }
-    .team-square {
+    @media all and (min-width: 768px) {
       top: 75px;
     }
   }
+}
 
-  .sw-container {
+/*FORTALEZAS DEBILIDADES*/
+
+.swcontainer {
+  width: 100%;
+  padding: 30px 15px 45px;
+  background-color: $back-grey;
+  @media all and (min-width: 768px) {
     display: flex;
     padding: 45px 45px 60px 45px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 45px 138px 60px 139px;
+  }
 
-    .s-container {
+  &__strenght {
+    @media all and (min-width: 768px) {
       width: 50%;
+    }
 
-      .s-text {
+    &--title {
+      font-family: $font-title;
+      font-size: 1.38rem;
+      font-weight: 500;
+      line-height: 2.05;
+      text-align: center;
+      color: $blue-green;
+    }
+
+    &--text {
+      margin-bottom: 30px;
+      font-family: $font-paragraph;
+      font-size: 1rem;
+      line-height: 1.5;
+      text-align: center;
+      color: $dark-grey;
+      @media all and (min-width: 768px) {
         padding: 15px 15px 0 0;
         margin-bottom: 0px;
       }
+      @media all and (min-width: 1200px) {
+        padding: 15px 22px 0 0;
+        margin-bottom: 0px;
+      }
     }
-    .w-container {
-      width: 50%;
+  }
 
-      .w-text {
+  &__weakness {
+    @media all and (min-width: 768px) {
+      width: 50%;
+    }
+
+    &--title {
+      font-family: $font-title;
+      font-size: 1.38rem;
+      font-weight: 500;
+      line-height: 2.05;
+      text-align: center;
+      color: $blue-green;
+    }
+
+    &--text {
+      font-family: $font-paragraph;
+      font-size: 1rem;
+      line-height: 1.5;
+      text-align: center;
+      color: $dark-grey;
+      @media all and (min-width: 768px) {
         padding: 15px 0 0 15px;
+      }
+      @media all and (min-width: 1200px) {
+        padding: 15px 0 0 23px;
       }
     }
   }
 }
 
-@media all and (min-width: 1200px) {
-  .team-container {
-    padding: 45px 299px 60px 300px;
-    margin: 0;
+/*CON GRID
+#ir-a-equipo {
+  scroll-margin-top: 133px;
+  @media all and (min-width: 768px) {
+    scroll-margin-top: 88px;
   }
+}
 
-  .sw-container {
-    padding: 45px 138px 60px 139px;
-
-    .s-text {
-      padding: 15px 22px 0 0;
-      margin-bottom: 0px;
+.teamcontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 40% 25% 35%;
+  @media all and (min-width: 768px) {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60% 40%;
+  }
+  .team {
+    width: 100%;
+    padding: 30px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    @media all and (min-width: 768px) {
+      padding: 45px 45px 60px 45px;
+      margin: 0;
+      grid-column: 1/3;
+      grid-row: 1/2;
+    }
+    @media all and (min-width: 1200px) {
+      padding: 45px 299px 60px 300px;
+      margin: 0;
+    }
+    &__title {
+      font-family: $font-title;
+      font-size: 1.5rem;
+      font-weight: 500;
+      line-height: 45px;
+      color: $blue-green;
+      text-transform: uppercase;
+      @media all and (min-width: 768px) {
+        margin-bottom: 15px;
+      }
     }
 
-    .w-text {
-      padding: 15px 0 0 23px;
+    &__text {
+      font-family: $font-paragraph;
+      font-size: 1rem;
+      line-height: 24px;
+      text-align: center;
+      color: $dark-grey;
+
+      &--p2 {
+        font-family: $font-paragraph;
+        font-size: 1rem;
+        line-height: 24px;
+        text-align: center;
+        color: $dark-grey;
+        margin-top: 10px;
+      }
+    }
+
+    &__square {
+      box-sizing: border-box;
+      width: 30px;
+      height: 30px;
+      transform: rotate(45deg);
+      position: relative;
+      top: 14.2px;
+      background-color: $white;
+      display: flex;
+      justify-content: center;
+      @media all and (min-width: 768px) {
+        top: 75px;
+      }
+    }
+  }
+
+  /*FORTALEZAS Y DEBILIDADES
+
+  .swcontainer {
+    width: 100%;
+    padding: 30px 15px 45px;
+    background-color: $back-grey;
+    @media all and (min-width: 768px) {
+      display: flex;
+      padding: 45px 45px 60px 45px;
+    }
+    @media all and (min-width: 1200px) {
+      padding: 45px 138px 60px 139px;
+    }
+
+    &__strenght {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      @media all and (min-width: 768px) {
+        width: 50%;
+      }
+
+      &--title {
+        font-family: $font-title;
+        font-size: 1.38rem;
+        font-weight: 500;
+        line-height: 2.05;
+        text-align: center;
+        color: $blue-green;
+      }
+
+      &--text {
+        margin-bottom: 30px;
+        font-family: $font-paragraph;
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: center;
+        color: $dark-grey;
+        @media all and (min-width: 768px) {
+          padding: 15px 15px 0 0;
+          margin-bottom: 0px;
+        }
+        @media all and (min-width: 1200px) {
+          padding: 15px 22px 0 0;
+          margin-bottom: 0px;
+        }
+      }
+    }
+
+    &__weakness {
+      grid-column: 1/2;
+      grid-row: 3/4;
+      @media all and (min-width: 768px) {
+        width: 50%;
+        grid-column: 2/3;
+        grid-row: 2/3;
+      }
+
+      &--title {
+        font-family: $font-title;
+        font-size: 1.38rem;
+        font-weight: 500;
+        line-height: 2.05;
+        text-align: center;
+        color: $blue-green;
+      }
+
+      &--text {
+        font-family: $font-paragraph;
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: center;
+        color: $dark-grey;
+        @media all and (min-width: 768px) {
+          padding: 15px 0 0 15px;
+        }
+        @media all and (min-width: 1200px) {
+          padding: 15px 0 0 23px;
+        }
+      }
     }
   }
 }
+*/
