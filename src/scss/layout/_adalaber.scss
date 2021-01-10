@@ -1,7 +1,6 @@
 #ir-a-quienes-somos {
   scroll-margin-top: 133px;
 }
-
 .adalaberscontainer {
   width: 100%;
   padding: 0 15px;
@@ -36,6 +35,24 @@
   align-items: center;
   padding-bottom: 30px;
 }
+@media all and (min-width: 768px) {
+  .article-left {
+    flex-direction: row;
+    padding: 0 45px 45px 45px;
+  }
+  .article-right {
+    flex-direction: row-reverse;
+    padding: 0 45px 45px 45px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .article-left {
+    padding: 0 138px 60px 138px;
+  }
+  .article-right {
+    padding: 0 138px 60px 138px;
+  }
+}
 
 .img2 {
   width: 180px;
@@ -43,6 +60,20 @@
   margin: 0 55px 0;
   border-radius: 4px;
   border: solid 5px rgba(0, 0, 0, 0.08);
+}
+@media all and (min-width: 768px) {
+  .img2 {
+    width: 206px;
+    height: 206px;
+    margin: 0;
+  }
+}
+@media all and (min-width: 1200px) {
+  .img2 {
+    width: 278px;
+    height: 278px;
+    margin: 0;
+  }
 }
 .title-left,
 .title-right {
@@ -58,6 +89,14 @@
   text-align: center;
   color: $black;
 }
+@media all and (min-width: 768px) {
+  .title-left {
+    text-align: left;
+  }
+  .title-right {
+    text-align: right;
+  }
+}
 .description-left,
 .description-right {
   display: block;
@@ -71,6 +110,14 @@
   letter-spacing: normal;
   text-align: center;
   color: #54585a;
+}
+@media all and (min-width: 768px) {
+  .description-left {
+    text-align: left;
+  }
+  .description-right {
+    text-align: right;
+  }
 }
 .logos-left,
 .logos-right {
@@ -88,38 +135,15 @@
   list-style-type: none;
 }
 @media all and (min-width: 768px) {
-  .title-left {
-    text-align: left;
-  }
-  .title-right {
-    text-align: right;
-  }
-  .description-left {
-    text-align: left;
-  }
-  .description-right {
-    text-align: right;
-  }
-
   .logos-left {
     justify-content: flex-start;
   }
   .logos-right {
     justify-content: flex-end;
   }
-  .article-left {
-    flex-direction: row;
-    padding: 0 45px 45px 45px;
-  }
-  .article-right {
-    flex-direction: row-reverse;
-    padding: 0 45px 45px 45px;
-  }
-  .img2 {
-    width: 206px;
-    height: 206px;
-    margin: 0;
-  }
+}
+
+@media all and (min-width: 768px) {
   .container-left {
     padding-left: 30px;
     text-align: left;
@@ -127,19 +151,5 @@
   }
   .container-right {
     padding: 0 30px 0 0;
-  }
-}
-
-@media all and (min-width: 1200px) {
-  .img2 {
-    width: 278px;
-    height: 278px;
-    margin: 0;
-  }
-  .article-left {
-    padding: 0 138px 60px 138px;
-  }
-  .article-right {
-    padding: 0 138px 60px 138px;
   }
 }
