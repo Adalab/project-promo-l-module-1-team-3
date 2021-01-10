@@ -78,12 +78,11 @@
   }
   .footer-list {
     width: 50%;
-    //margin: 8px 8px 8px 182px;
+
     justify-content: flex-end;
   }
   .img-logo {
     width: 50%;
-    //height: 0;
     margin: 0;
     padding: 0 0 0 45px;
     border: 0;
@@ -91,26 +90,9 @@
     transform: translate(0px, -15px);
   }
 }
+
 @media all and (min-width: 1200px) {
-  .footer-list {
-    width: 324px;
-    height: 90px;
-    margin: 8 8 8 182px;
-    text-align: right;
-  }
   .img-logo {
-    width: 50%;
-    //height: 0;
-    margin: 0;
-    padding: 0 0 0 45px;
-    border: 0;
-    $color-bg: 0;
-    transform: translate(0px, -15px);
-  }
-  .copyright {
-    width: 172px;
-    height: 28px;
-    margin: 6px 182px 15px 0px;
-    color: $cool-grey;
+    padding: 0 0 0 138px;
   }
 }
