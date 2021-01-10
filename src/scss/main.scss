@@ -1,13 +1,24 @@
+// Core
 @import "core/variables";
 @import "core/reset";
-@import "components/code";
-@import "components/links";
+
+// Font-awesome
 @import "font-awesome/all";
-@import "layout/page";
+
+// Layout
 @import "layout/header";
-@import "layout/_adalaber.scss";
+@import "layout/adalaber";
 @import "layout/team";
-@import "pages/index";
 @import "layout/footer";
 @import "layout/hero";
+<<<<<<< HEAD
+=======
+
+// Components
+@import "components/code";
+@import "components/links";
+
+// Pages
+@import "pages/index";
+>>>>>>> 03d03f2f4625d2883646c19d22b7100c92a6f551
 @import "pages/contact";

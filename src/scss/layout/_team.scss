@@ -1,5 +1,9 @@
 /* EQUIPO */
 
+#ir-a-equipo {
+  scroll-margin-top: 133px;
+}
+
 .team-container {
   width: 100%;
   padding: 30px 15px 0px 15px;
@@ -8,127 +12,112 @@
   background-color: $white;
   justify-content: center;
   align-items: center;
-}
 
-.team-title {
-  font-family: $font-title;
-  font-size: 1.5rem;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 45px;
-  letter-spacing: normal;
-  text-align: center;
-  color: $blue-green;
-  text-transform: uppercase;
-}
+  .team-title {
+    font-family: $font-title;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 45px;
+    color: $blue-green;
+    text-transform: uppercase;
+  }
 
-.team-text {
-  width: 100%;
-  font-family: $font-paragraph;
-  font-size: 1rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 24px;
-  letter-spacing: normal;
-  text-align: center;
-  color: $dark-grey;
-}
+  .team-text {
+    width: 100%;
+    font-family: $font-paragraph;
+    font-size: 1rem;
+    line-height: 24px;
+    text-align: center;
+    color: $dark-grey;
+  }
 
-.team-p2 {
-  margin-top: 10px;
-}
+  .team-p2 {
+    margin-top: 10px;
+  }
 
-.team-square {
-  box-sizing: border-box;
-  width: 29.9px;
-  height: 30px;
-  transform: rotate(45deg);
-  position: relative;
-  top: 14.2px;
-  background-color: $white;
-  display: flex;
-  justify-content: center;
+  .team-square {
+    box-sizing: border-box;
+    width: 29.9px;
+    height: 30px;
+    transform: rotate(45deg);
+    position: relative;
+    top: 14.2px;
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+  }
 }
-
 /*FORTALEZAS DEBILIDADES*/
 
 .sw-container {
   width: 100%;
   padding: 30px 15px 45px;
   background-color: $back-grey;
-}
 
-.sw-title {
-  width: 100%;
-  font-family: $font-title;
-  font-size: 1.38rem;
-  font-weight: 500;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 2.05;
-  letter-spacing: normal;
-  text-align: center;
-  color: $blue-green;
-}
+  .sw-title {
+    width: 100%;
+    font-family: $font-title;
+    font-size: 1.38rem;
+    font-weight: 500;
+    line-height: 2.05;
+    text-align: center;
+    color: $blue-green;
+  }
 
-.s-text {
-  width: 100%;
-  margin-bottom: 30px;
-  font-family: $font-paragraph;
-  font-size: 1rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: $dark-grey;
-}
-.w-text {
-  width: 100%;
-  font-family: $font-paragraph;
-  font-size: 1rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-align: center;
-  color: $dark-grey;
+  .s-text {
+    width: 100%;
+    margin-bottom: 30px;
+    font-family: $font-paragraph;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: $dark-grey;
+  }
+  .w-text {
+    width: 100%;
+    font-family: $font-paragraph;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: $dark-grey;
+  }
 }
 
 @media all and (min-width: 768px) {
+  #ir-a-equipo {
+    scroll-margin-top: 88px;
+  }
   .team-container {
     padding: 45px 45px 60px 45px;
     margin: 0;
-  }
 
-  .team-title {
-    margin-bottom: 15px;
+    .team-title {
+      margin-bottom: 15px;
+    }
+    .team-square {
+      top: 75px;
+    }
   }
 
   .sw-container {
     display: flex;
     padding: 45px 45px 60px 45px;
-  }
-  .s-container {
-    width: 50%;
-  }
-  .w-container {
-    width: 50%;
-  }
-  .s-text {
-    padding: 15px 15px 0 0;
-    margin-bottom: 0px;
-  }
 
-  .w-text {
-    padding: 15px 0 0 15px;
-  }
-  .team-square {
-    top: 75px;
+    .s-container {
+      width: 50%;
+
+      .s-text {
+        padding: 15px 15px 0 0;
+        margin-bottom: 0px;
+      }
+    }
+    .w-container {
+      width: 50%;
+
+      .w-text {
+        padding: 15px 0 0 15px;
+      }
+    }
   }
 }
 
@@ -140,14 +129,14 @@
 
   .sw-container {
     padding: 45px 138px 60px 139px;
-  }
 
-  .s-text {
-    padding: 15px 22px 0 0;
-    margin-bottom: 0px;
-  }
+    .s-text {
+      padding: 15px 22px 0 0;
+      margin-bottom: 0px;
+    }
 
-  .w-text {
-    padding: 15px 0 0 23px;
+    .w-text {
+      padding: 15px 0 0 23px;
+    }
   }
 }
