@@ -15,12 +15,6 @@
       padding: 15px 45px 14px;
       opacity: 0.95;
     }
-}
-.nav-class {
-  width: 100%;
-  background-color: $aqua;
-  opacity: 0.95;
-}
 
 .nameofgroup {
   padding: 15px 0;
@@ -42,17 +36,11 @@
   width: 75%;    
   }
 }
-.header-list {
-  align-items: center;
-  font-family: $font-title;
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-  line-height: 2;
-  color: $white;
-  list-style-type: none;
-  text-align: center;
-}
+.nav-class {
+  width: 100%;
+  background-color: $aqua;
+  opacity: 0.95;
+
 .headercontainer {
   display: flex;
   flex-direction: row;
@@ -68,4 +56,18 @@
     right: 0;
     top: 20px;
   }
+
+.header-list {
+  align-items: center;
+  font-family: $font-title;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 2;
+  color: $white;
+  list-style-type: none;
+  text-align: center;
+}
+}
+}
 }
