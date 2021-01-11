@@ -7,9 +7,13 @@
   width: 100%;
   background-color: var(--white);
 }
+
 .link {
   color: white;
+  transition: color ease 0.5s;
   display: inline-flex;
   text-decoration: none;
+  &:hover {
+    color: $black;
+  }
 }
-  
