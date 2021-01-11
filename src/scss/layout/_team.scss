@@ -157,6 +157,7 @@ FORTALEZAS DEBILIDADES
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 40% 25% 35%;
+  background-color: $back-grey;
   @media all and (min-width: 768px) {
     grid-template-columns: 50% 50%;
     grid-template-rows: 40% 60%;
@@ -232,7 +233,6 @@ FORTALEZAS DEBILIDADES
   .swcontainer {
     width: 100%;
     padding: 30px 15px 45px;
-    background-color: $back-grey;
     grid-column: 1/3;
     grid-row: 2/3;
     @media all and (min-width: 768px) {
