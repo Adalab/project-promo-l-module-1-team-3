@@ -1,68 +1,202 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
-  </head>
 
-  <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/" />
+  <title>wecancodeit</title>
+</head>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
+<body>
+  <div class="full-container">
+    <!--HEADER-->
+    <header class="header" id="we-can-code-it">
+      <h1 class="nameofgroup">
+        <a href="./index.html#we-can-code-it" class="link">WE CAN CODE IT</a>
+      </h1>
+      <nav class="nav-class">
+        <ul class="headercontainer">
+          <li class="header-list">
+            <a href="./index.html#ir-a-equipo" class="link"> Equipo </a>
           </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
+          <li class="header-list">
+            <a href="./index.html#ir-a-quienes-somos" class="link"
+              >Quienes somos
+            </a>
+          </li>
+          <li class="header-list">
+            <a href="../contact.html" class="link"> Contacto </a>
           </li>
         </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial, busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo estamos creando estos
-          enlaces:
-        </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
+      </nav>
+    </header>
 
+    <main>
+      <!--hero-->
+      <!--hero-->
+      <section class="hero">
+          <div class="container-img">
+            <img class="img" src="./assets/images/wecan.png" alt="Foto equipo">
+            <h2 class="claim">If you can dream it, we can code it.</h2>
+          </div>
+        </section>
+
+      <!--team-->
+
+      <section class="teamcontainer" id="ir-a-equipo">
+        <div class="team">
+          <h2 class="team__title">Equipo</h2>
+          <p class="team__text">
+            Somos un grupo de mujeres jóvenes que hemos decidido dar un giro a
+            nuestras vidas y aceptar el reto de convertirnos en programadoras
+            front-end. Como dice nuestro lema: “If you can dream it, we can code it”,
+            y si aún no, pronto podremos.
+          </p>
+
+          <p class="team__text--p2">
+            La flexibilidad ante el cambio y el interés por el aprendizaje continuo
+            nos han traído hasta aquí, y estamos seguras de que nos acompañarán a
+            todos aquellos sitios a los que aún estamos por llegar.
+          </p>
+          <div class="team__square"></div>
+        </div>
+        <div class="swcontainer">
+          <section class="swcontainer__strenght">
+            <h3 class="swcontainer__strenght--title">Fortalezas</h3>
+            <p class="swcontainer__strenght--text">
+              Somos cuatro chicas de diferentes profesiones que nos une el “gusanillo”
+              por el código, que estamos decididas a reprogramar nuestro futuro
+              laboral. Con pasión, ganas y mucho esfuerzo recorreremos este trepidante
+              camino.
+            </p>
+          </section>
+
+          <section class="swcontainer__weakness">
+            <h3 class="swcontainer__weakness--title">Debilidades</h3>
+            <p class="swcontainer__weakness--text">
+              En realidad no tenemos ninguna debilidad, nosotras las consideramos
+              oportunidades de mejora, al igual que en cualquier organización existen
+              mejoras aplicables al quehacer cotidiano. Por tanto, en la actualidad en
+              donde el cambio ya no constituye un concepto novedoso, aplicamos la
+              mejora continua, es decir, la búsqueda de la perfección a través de
+              mejoras graduales y sostenidas.
+            </p>
+          </section>
+        </div>
+      </section>
+
+
+      <section id="ir-a-quienes-somos">
+        <div class="adalaberscontainer">
+          <h2 class="adalabers">Quienes somos</h2>
+
+          <article class="article-left">
+            <image class="img2" src="assets/images/AnaDiz.png" alt="Ana Diz image"></image>
+            <div class="container-left">
+              <h3 class="title-left">Ana Diz</h3>
+              <p class="description-left">Empecé a sentir interés por el código en un taller de programación cuando
+              hice el Master de Turismo Electrónico, aunque supone un gran cambio y consiente de que no es un reto
+              para nada sencillo, tomé la decisión de unirme a esta aventura de poder convertirme en programadora.</p>
+              <ul class="logos-left">
+                <li><a href="-twitter"><i class="fab fa-twitter colorlogo">•</i></a></li>
+                <li><a href="-linkedin"><i class="fab fa-linkedin-in colorlogo">•</i></a></li>
+                <li><a href="-github"><i class="fab fa-github-alt colorlogo">•</i></a>
+                </li>
+                <li><a href="-mail"><i class="fas fa-envelope colorlogo"></i></a></li>
+              </ul>
+            </div>
+
+          </article>
+
+          <article class="article-right">
+            <image class="img2" src="assets/images/EstherLopez.png" alt="Esther López image"></image>
+            <div class="container-right">
+              <h3 class="title-right">Esther López</h3>
+              <p class="description-right">Programadora front-end junior in progress. Tras estudiar magisterio y estar varios años trabajando en sectores que no tenian nada que ver con mi formación decido reinventarme y dar el paso a la programación. ¡Nunca pierdo las ganas de seguir aprendiendo!</p>
+              <ul class="logos-right">
+                <li><a href="-twitter"><i class="fab fa-twitter colorlogo">•</i></a></li>
+                <li><a href="-linkedin"><i class="fab fa-linkedin-in colorlogo">•</i></a></li>
+                <li><a href="-github"><i class="fab fa-github-alt colorlogo">•</i></a>
+                </li>
+                <li><a href="-mail"><i class="fas fa-envelope colorlogo"></i></a></li>
+              </ul>
+            </div>
+
+          </article>
+
+          <article class="article-left">
+            <image class="img2" src="assets/images/MarinaDelgado.png" alt="Marina Delgado image "></image>
+            <div class="container-left">
+              <h3 class="title-left">Marina Delgado</h3>
+              <p class="description-left">De Licenciada en Ciencias del trabajo a programadora. ¡Vaya cambio! Y es que he visto que la programación está en todo y la aplicación de la tecnología puede resultar
+            incluso muy interesante, por lo que decidí que mi sueño era más grande que los miedos que anidaban en mi
+            cabeza y me lancé a esta aventura Adalab.</p>
+              <ul class="logos-left">
+                <li><a href="-twitter"><i class="fab fa-twitter colorlogo">•</i></a></li>
+                <li><a href="-linkedin"><i class="fab fa-linkedin-in colorlogo">•</i></a></li>
+                <li><a href="-github"><i class="fab fa-github-alt colorlogo">•</i></a>
+                </li>
+                <li><a href="-mail"><i class="fas fa-envelope colorlogo"></i></a></li>
+              </ul>
+            </div>
+
+          </article>
+
+          <article class="article-right">
+            <image class="img2" src="assets/images/MercedesFe.png" alt="Mercedes Fe image"></image>
+            <div class="container-right">
+              <h3 class="title-right">Mercedes Fe</h3>
+              <p class="description-right">Siempre he sido curiosa y decidida, y desde que supe que yo también
+            podía
+            programar lo tuve claro. Así fue como, tras formarme en audiovisuales, llegué a Adalab, con
+            el
+            propósito de convertirme en programadora y hacer de ello mi profesión.</p>
+              <ul class="logos-right">
+                <li><a href="-twitter"><i class="fab fa-twitter colorlogo">•</i></a></li>
+                <li><a href="-linkedin"><i class="fab fa-linkedin-in colorlogo">•</i></a></li>
+                <li><a href="-github"><i class="fab fa-github-alt colorlogo">•</i></a>
+                </li>
+                <li><a href="-mail"><i class="fas fa-envelope colorlogo"></i></a></li>
+              </ul>
+            </div>
+
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container-footer">
+        <small class="copyright">We-can-code-it-&copy; 2020 </small>
+        <ul class="footer">
+          <li class="footer-list">
+            <a href="#ir-a-equipo" class="link-footer">Equipo</a>
           </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
 
+          <li class="footer-list">
+            <a href="#ir-a-quienes-somos" class="link-footer">Quienes somos</a>
+          </li>
+
+          <li class="footer-list">
+            <a href="../contact.html" class="link-footer">Contacto</a>
           </li>
         </ul>
-      </main>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
+        <a href="https://adalab.es/" target="_blank"
+          ><img
+            class="img-logo"
+            src="./assets/images/logo-adalab.png"
+            alt="logo Adalab"
+          />
+        </a>
+      </div>
+    </footer>
 
-        </small>
-      </footer>
+  </div>
+</body>
 
-    </div>
-    <script src="./assets/js/main.js"></script>
-  </body>
 </html>
