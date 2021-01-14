@@ -16,7 +16,7 @@
     opacity: 0.95;
   }
 
-  .nameofgroup {
+  &__name {
     padding: 15px 0;
     width: 100%;
     font-family: $font-title;
@@ -33,12 +33,12 @@
       width: 75%;
     }
   }
-  .nav-class {
+  &__nav {
     width: 100%;
     background-color: $aqua;
     opacity: 0.95;
 
-    .headercontainer {
+    &--ul {
       display: flex;
       flex-direction: row;
       width: 100%;
