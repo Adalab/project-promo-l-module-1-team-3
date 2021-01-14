@@ -4,7 +4,7 @@
   @media all and (min-width: 768px) {
     padding-top: 0;
   }
-  .container-img {
+  &hero__img {
     width: 100%;
     height: 280px;
     display: flex;
@@ -15,10 +15,10 @@
     // @media all and (min-width: 1200px) {
     // height: 80px;
     //}
-    .img {
+    &--img {
       width: 100%;
     }
-    .claim {
+    &--claim {
       font-family: $font-paragraph;
       font-size: 0.9375rem;
       font-weight: 600px;

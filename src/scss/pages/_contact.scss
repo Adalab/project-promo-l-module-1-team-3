@@ -164,3 +164,17 @@ label {
   left: auto;
   right: auto;
 }
+.contact-mail {
+  display: flex;
+  @media all and (min-width: 1200px) {
+    flex-direction: column;
+    width: 60%;
+  }
+}
+.contact-phone {
+  display: flex;
+  @media all and (min-width: 1200px) {
+    flex-direction: column;
+    width: 30%;
+  }
+}
