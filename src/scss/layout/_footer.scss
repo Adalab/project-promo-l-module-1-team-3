@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   border: solid 1px #b8b8b9;
-  $color-bg: #ffffff;
+  color: $color-bg;
   @media all and (min-width: 768px) {
     justify-content: flex-start;
   }
@@ -25,14 +25,12 @@
   font-size: 0.875rem;
   line-height: 1.43;
   text-align: center;
-  $cool-grey: #b8b8b9;
+  color: $cool-grey;
   @media all and (min-width: 768px) {
     width: 50%;
     height: 28px;
     justify-content: start;
     padding-left: 45px;
-    //margin: 6px 182px 15px 0px;
-    color: $cool-grey;
   }
   @media all and (min-width: 1200px) {
     padding-left: 138px;
@@ -53,7 +51,7 @@
   font-weight: 540;
   line-height: 1.43;
   text-align: center;
-  $dark-grey: #54585a;
+  color: $dark-grey;
 
   @media all and (min-width: 768px) {
     width: 50%;
@@ -78,7 +76,7 @@
   }
 
   .link-footer {
-    $dark-grey: #54585a;
+    color: $dark-grey;
     text-decoration: none;
   }
 }

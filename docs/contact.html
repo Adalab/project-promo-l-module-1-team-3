@@ -15,11 +15,41 @@
 <body>
 
   <!--HEADER-->
-  <include src="./partials/header.html"></include>
+  <header class="header" id="we-can-code-it">
+    <h1 class="nameofgroup">
+      <a href="./index.html#we-can-code-it" class="link">WE CAN CODE IT</a>
+    </h1>
+    <nav class="nav-class">
+      <ul class="headercontainer">
+        <li class="header-list">
+          <a href="./index.html#ir-a-equipo" class="link"> Equipo </a>
+        </li>
+        <li class="header-list">
+          <a href="./index.html#ir-a-quienes-somos" class="link"
+            >Quienes somos
+          </a>
+        </li>
+        <li class="header-list">
+          <a
+            href="https://beta.adalab.es/project-promo-l-module-1-team-3/contact.html"
+            class="link"
+          >
+            Contacto
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
   <!--MAIN-->
   <main>
     <!--hero-->
-    <include src="./partials/herocontact.html"></include>
+    <!--hero-->
+    <section class="herocontact">
+        <div class="container-imgcontact">
+          <img class="imgcontact" src="./assets/images/herocontact.jpg" alt="Foto hero contact">
+        </div>
+      </section>
     <!--CONTACT-->
     <div class="contact">
       <h2 class="contact-title">contacto</h2>
@@ -53,7 +83,37 @@
     </div>
   </main>
   <!--FOOTER-->
-  <include src="./partials/footer.html"></include>
+  <footer>
+    <div class="container-footer">
+      <small class="copyright">We-can-code-it-&copy; 2020 </small>
+      <ul class="footer">
+        <li class="footer-list">
+          <a href="#ir-a-equipo" class="link-footer">Equipo</a>
+        </li>
+
+        <li class="footer-list">
+          <a href="#ir-a-quienes-somos" class="link-footer">Quienes somos</a>
+        </li>
+
+        <li class="footer-list">
+          <a
+            href="https://beta.adalab.es/project-promo-l-module-1-team-3/contact.html"
+            class="link-footer"
+            >Contacto</a
+          >
+        </li>
+      </ul>
+
+      <a href="https://adalab.es/" target="_blank"
+        ><img
+          class="img-logo"
+          src="./assets/images/logo-adalab.png"
+          alt="logo Adalab"
+        />
+      </a>
+    </div>
+  </footer>
+
 </body>
 
 </html>
