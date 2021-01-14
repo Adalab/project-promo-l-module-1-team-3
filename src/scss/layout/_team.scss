@@ -237,10 +237,10 @@ FORTALEZAS DEBILIDADES
       height: 30px;
       position: absolute;
       left: 50%;
-      transform: translate(0%, -150%) rotate(45deg);
+      transform: translate(-50%, -150%) rotate(45deg);
       background-color: $white;
       @media all and (min-width: 768px) {
-        transform: translate(0%, -200%) rotate(45deg);
+        transform: translate(-50%, -200%) rotate(45deg);
       }
     }
 
