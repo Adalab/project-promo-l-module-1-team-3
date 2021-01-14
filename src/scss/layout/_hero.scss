@@ -9,18 +9,16 @@
     height: 280px;
     display: flex;
     flex-direction: column;
-    background-image: url(../images/wecan.png);
+    background-image: url(../images/wecan_mobile.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     align-items: center;
     justify-content: flex-end;
     @media all and (min-width: 768px) {
-      height: 520px;
+      height: 480px;
       align-items: flex-start;
-    }
-    @media all and (min-width: 1200px) {
-      height: 860px;
+      background-image: url(../images/wecan_responsive.png);
     }
 
     .claim {
