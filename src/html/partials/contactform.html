@@ -1,0 +1,48 @@
+<div class="pagecontainer contactcontainer">
+  <article>
+    <h2 class="form__title">contacto</h2>
+      <p class="contact-text">
+        Contactanos y estaremos encantadas de proporcionarte la información que necesites. Gracias.
+      </p>
+      <p class="small-letter">Todos los campos marcados con 
+        <span class="asterisk">*
+        </span>
+         son obligatorios
+        </p>
+  </article>
+    <form action="https://formspree.io/f/mdopyzgy" method="post">
+      <div class="form__wrapper">
+        <div class="input__wrapper">
+          <label for="firstName">Nombre completo 
+            <span class="asterisk">*
+             </span>
+         </label>
+         <input class="input" placeholder="Nombre..." id="firstName" type="text" name="firstName" required />
+       </div>
+      <div class="input__wrapper">
+        <label for="emailaddress">Email
+          <span class="asterisk">*
+          </span>
+        </label>
+        <input class="input" placeholder="nombre.apellidos@mail.com" id="emailaddress" type="email"
+          name="emailaddress" value="" required />
+      </div>
+      <div class="input__wrapper">
+        <label for="telephone">Teléfono
+        </label>
+        <input class="input" type="tel" id="telephone" name="telephone" placeholder="Ej:123456789"
+          pattern="[0-9]{9}" />
+      </div>
+      <div class="input__wrapper">
+      <label for="comments">Mensaje
+        <span class="asterisk">*
+        </span>
+      </label>
+      <textarea class="textarea" id="comments" name="comments" rows="5" cols="40" placeholder="¿Qué necesitas?"
+        required>
+      </textarea>
+    </div>
+      <input class="button" type="submit" value="Enviar" />
+    </div>
+    </form>
+</div>
