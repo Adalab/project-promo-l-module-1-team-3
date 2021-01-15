@@ -1,3 +1,10 @@
+#ir-a-quienes-somos {
+  scroll-margin-top: 104px;
+  @media all and (min-width: 768px) {
+    scroll-margin-top: 88px;
+  }
+}
+
 .adalaberscontainer {
   width: 100%;
   padding: 0 15px;

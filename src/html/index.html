@@ -1,70 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/" />
+    <title>wecancodeit</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Rubik:wght@500&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./assets/css/main.css" />
-  <link rel="stylesheet" href="./assets/css/" />
-  <title>wecancodeit</title>
-</head>
+  <body>
+    <div class="full-container" id="we-can-code-it">
+      <!--HEADER-->
+      <include src="./partials/header.html"></include>
+      <main>
+        <!--hero-->
+        <include src="./partials/hero.html"></include>
 
-<body>
-  <div class="full-container">
-    <!--HEADER-->
-    <include src="./partials/header.html"></include>
-    <main>
-      <!--hero-->
-      <include src="./partials/hero.html"></include>
+        <!--team-->
 
-      <!--team-->
+        <include src="./partials/team.html"></include>
 
-      <include src="./partials/team.html"></include>
+        <section id="ir-a-quienes-somos">
+          <div class="adalaberscontainer">
+            <h2 class="adalabers">Quienes somos</h2>
 
-      <section id="ir-a-quienes-somos">
-        <div class="adalaberscontainer">
-          <h2 class="adalabers">Quienes somos</h2>
+            <include
+              src="partials/adalaber.html"
+              imageadalaber="assets/images/AnaDiz.jpeg"
+              alternativetext="Ana Diz image"
+              name="Ana Diz"
+              description="Empecé a sentir interés por el código en un taller de programación cuando hice el Master de Turismo Electrónico, aunque supone un gran cambio y consiente de que no es un reto para nada sencillo, tomé la decisión de unirme a esta aventura de poder convertirme en programadora."
+              twitter=""
+              linkedin="https://www.linkedin.com/in/ana-diz-bermejo-3aa3a5162/"
+              github="https://github.com/anadiz13"
+              mail="mailto:ana_diz137@hotmail.es"
+              articleClass="article-left"
+              container="container-left"
+              title="title-left"
+              adalaberdescription="description-left"
+              logos="logos-left"
+            >
+            </include>
 
-          <include src="partials/adalaber.html" imageadalaber="assets/images/AnaDiz.jpeg"
-            alternativetext="Ana Diz image" name="Ana Diz"
-            description="Empecé a sentir interés por el código en un taller de programación cuando hice el Master de Turismo Electrónico, aunque supone un gran cambio y consiente de que no es un reto para nada sencillo, tomé la decisión de unirme a esta aventura de poder convertirme en programadora."
-            twitter="" linkedin="https://www.linkedin.com/in/ana-diz-bermejo-3aa3a5162/"
-            github="https://github.com/anadiz13" mail="mailto:ana_diz137@hotmail.es" articleClass="article-left"
-            container="container-left" title="title-left" adalaberdescription="description-left" logos="logos-left">
-          </include>
+            <include
+              src="partials/adalaber.html"
+              imageadalaber="assets/images/EstherLopez.jpg"
+              alternativetext="Esther López image"
+              name="Esther López"
+              description="Programadora front-end junior in progress. Tras estudiar magisterio y estar varios años trabajando en sectores que no tenian nada que ver con mi formación decido reinventarme y dar el paso a la programación. ¡Nunca pierdo las ganas de seguir aprendiendo!"
+              twitter=""
+              linkedin="https://www.linkedin.com/in/esther-l%C3%B3pez-cordoncillo-a1902985/"
+              github="https://github.com/EstLopCor"
+              mail="mailto:estherlopezcordoncillo@gmail.com"
+              articleClass="article-right"
+              container="container-right"
+              title="title-right"
+              adalaberdescription="description-right"
+              logos="logos-right"
+            >
+            </include>
 
-          <include src="partials/adalaber.html" imageadalaber="assets/images/EstherLopez.jpg"
-            alternativetext="Esther López image" name="Esther López"
-            description="Programadora front-end junior in progress. Tras estudiar magisterio y estar varios años trabajando en sectores que no tenian nada que ver con mi formación decido reinventarme y dar el paso a la programación. ¡Nunca pierdo las ganas de seguir aprendiendo!"
-            twitter="" linkedin="https://www.linkedin.com/in/esther-l%C3%B3pez-cordoncillo-a1902985/"
-            github="https://github.com/EstLopCor" mail="mailto:estherlopezcordoncillo@gmail.com"
-            articleClass="article-right" container="container-right" title="title-right"
-            adalaberdescription="description-right" logos="logos-right">
-          </include>
+            <include
+              src="partials/adalaber.html"
+              imageadalaber="assets/images/MarinaDelgado.png"
+              alternativetext="Marina Delgado image "
+              name="Marina Delgado"
+              description="De Licenciada en Ciencias del trabajo a programadora. ¡Vaya cambio! Y es que he visto que la programación está en todo y la aplicación de la tecnología puede resultar incluso muy interesante, por lo que decidí que mi sueño era más grande que los miedos que anidaban en mi cabeza y me lancé a esta aventura Adalab."
+              twitter=""
+              linkedin="https://www.linkedin.com/in/marinadelgadoesquinas/"
+              github="https://github.com/Marinadelgado88"
+              mail="mailto:marinadelges@gmail.com"
+              articleClass="article-left"
+              container="container-left"
+              title="title-left"
+              adalaberdescription="description-left"
+              logos="logos-left"
+            >
+            </include>
 
-          <include src="partials/adalaber.html" imageadalaber="assets/images/MarinaDelgado.png"
-            alternativetext="Marina Delgado image " name="Marina Delgado"
-            description="De Licenciada en Ciencias del trabajo a programadora. ¡Vaya cambio! Y es que he visto que la programación está en todo y la aplicación de la tecnología puede resultar incluso muy interesante, por lo que decidí que mi sueño era más grande que los miedos que anidaban en mi cabeza y me lancé a esta aventura Adalab."
-            twitter="" linkedin="https://www.linkedin.com/in/marinadelgadoesquinas/"
-            github="https://github.com/Marinadelgado88" mail="mailto:marinadelges@gmail.com" articleClass="article-left"
-            container="container-left" title="title-left" adalaberdescription="description-left" logos="logos-left">
-          </include>
-
-          <include src="partials/adalaber.html" imageadalaber="assets/images/MercedesFe.png"
-            alternativetext="Mercedes Fe image" name="Mercedes Fe"
-            description="Siempre he sido curiosa y decidida, y desde que supe que yo también podía           programar lo tuve claro. Así fue como, tras formarme en audiovisuales, llegué a Adalab, con el propósito de convertirme en programadora y hacer de ello mi profesión."
-            twitter="" linkedin="" github="https://github.com/mermfb" mail="mailto:mermfb@gmail.com"
-            articleClass="article-right" container="container-right" title="title-right"
-            adalaberdescription="description-right" logos="logos-right">
-          </include>
-        </div>
-      </section>
-    </main>
-    <include src="./partials/footer.html"></include>
-  </div>
-</body>
-
+            <include
+              src="partials/adalaber.html"
+              imageadalaber="assets/images/MercedesFe.png"
+              alternativetext="Mercedes Fe image"
+              name="Mercedes Fe"
+              description="Siempre he sido curiosa y decidida, y desde que supe que yo también podía           programar lo tuve claro. Así fue como, tras formarme en audiovisuales, llegué a Adalab, con el propósito de convertirme en programadora y hacer de ello mi profesión."
+              twitter=""
+              linkedin=""
+              github="https://github.com/mermfb"
+              mail="mailto:mermfb@gmail.com"
+              articleClass="article-right"
+              container="container-right"
+              title="title-right"
+              adalaberdescription="description-right"
+              logos="logos-right"
+            >
+            </include>
+          </div>
+        </section>
+      </main>
+      <include src="./partials/footer.html"></include>
+    </div>
+  </body>
 </html>
