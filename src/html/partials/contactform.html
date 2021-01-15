@@ -1,48 +1,40 @@
-<div class="pagecontainer contactcontainer">
+<div class="form">
   <article>
     <h2 class="form__title">contacto</h2>
-      <p class="contact-text">
-        Contactanos y estaremos encantadas de proporcionarte la información que necesites. Gracias.
-      </p>
-      <p class="small-letter">Todos los campos marcados con 
-        <span class="asterisk">*
-        </span>
-         son obligatorios
-        </p>
+    <p class="form__text">
+      Contactanos y estaremos encantadas de proporcionarte la información que necesites. Gracias.
+    </p>
+    <p class="form__small">Todos los campos marcados con <span class="form__asterisk">*</span> son obligatorios</p>
+
   </article>
-    <form action="https://formspree.io/f/mdopyzgy" method="post">
-      <div class="form__wrapper">
-        <div class="input__wrapper1">
-          <label for="firstName">Nombre completo 
-            <span class="asterisk">*
-             </span>
-         </label>
-         <input class="input" placeholder="Nombre..." id="firstName" type="text" name="firstName" required />
-       </div>
-      <div class="input__wrapper2">
-        <label for="emailaddress">Email
-          <span class="asterisk">*
-          </span>
+  <form action="https://formspree.io/f/mdopyzgy" method="post">
+
+    <label class="form__textcontact" for="firstName">Nombre completo <span class="form__asterisk">*</span> </label>
+    <input class="form__input" placeholder="Nombre..." id="firstName" type="text" name="firstName" required />
+    <div class="form__contactbasic">
+      <div class="form__contactbasic--mail">
+        <label class="form__textcontact" for="emailaddress">Email
+          <span class="form__asterisk">*</span>
         </label>
-        <input class="input" placeholder="nombre.apellidos@mail.com" id="emailaddress" type="email"
+        <input class="form__input" placeholder="nombre.apellidos@mail.com" id="emailaddress" type="email"
           name="emailaddress" value="" required />
       </div>
-      <div class="input__wrapper3">
-        <label for="telephone">Teléfono
+      <div class="form__contactbasic--phone">
+        <label class="form__textcontact" for="telephone">Teléfono
         </label>
-        <input class="input" type="tel" id="telephone" name="telephone" placeholder="Ej:123456789"
+        <input class="form__input" type="tel" id="telephone" name="telephone" placeholder="Ej:123456789"
           pattern="[0-9]{9}" />
       </div>
-      <div class="input__wrapper4">
-      <label for="comments">Mensaje
-        <span class="asterisk">*
-        </span>
-      </label>
-      <textarea class="textarea" id="comments" name="comments" rows="5" cols="40" placeholder="¿Qué necesitas?"
-        required>
-      </textarea>
-    </div class="input__wrapper5">
-      <input class="button" type="submit" value="Enviar" />
     </div>
-    </form>
-</div>
+
+    <label class="form__textcontact" for="comments">Mensaje
+      <span class="form__asterisk">*</span>
+    </label>
+    <textarea class="form__textarea" id="comments" name="comments" rows="5" cols="40" placeholder="¿Qué necesitas?"
+      required>
+      </textarea>
+
+
+    <input class="form__button" type="submit" value="Enviar" />
+
+  </form>
