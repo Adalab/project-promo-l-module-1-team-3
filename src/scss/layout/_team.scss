@@ -1,4 +1,3 @@
-
 #ir-a-equipo {
   scroll-margin-top: 133px;
   @media all and (min-width: 768px) {
@@ -12,7 +11,7 @@
   background-color: $back-grey;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 45% 23% 32%;
+  grid-template-rows: 39% 31% 30%;
   @media all and (min-width: 768px) {
     grid-template-columns: 50% 50%;
     grid-template-rows: 45% 55%;
@@ -22,7 +21,7 @@
   }
   .team {
     width: 100%;
-    padding: 60px 15px 0 15px;
+    padding: 40px 15px 0 15px;
     display: flex;
     flex-direction: column;
     background-color: $white;
