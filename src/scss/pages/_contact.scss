@@ -94,18 +94,19 @@
     @media all and (min-width: 768px) {
       width: 206px;
       align-self: flex-end;
+      align-items: flex-end;
+      align-content: flex-end;
     }
-    @media all and (min-width: 768px) {
+    @media all and (min-width: 1200px) {
       width: 278px;
     }
   }
 }
 .form-container {
-  padding: 0;
-  @media all and (min-width: 768x) {
+  @media all and (min-width: 768px) {
     padding: 0 148px;
   }
-  @media all and (min-width: 1200) {
+  @media all and (min-width: 1200px) {
     padding: 0 285px;
   }
 }
