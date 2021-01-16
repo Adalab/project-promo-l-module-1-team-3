@@ -1,15 +1,19 @@
 /*footer*/
 .container-footer {
   width: 100%;
-  max-height: 161px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   border: solid 1px #b8b8b9;
   color: $color-bg;
   @media all and (min-width: 768px) {
+    padding: 30px 45px 56px 45px;
+    height: 170px;
     justify-content: flex-start;
-    padding-bottom: 51px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 30px 138px 51px 138px;
+    height: 161px;
   }
 }
 .copyright {
@@ -27,12 +31,8 @@
   color: $cool-grey;
   @media all and (min-width: 768px) {
     width: 50%;
-    height: 28px;
     justify-content: start;
-    padding-left: 45px;
-  }
-  @media all and (min-width: 1200px) {
-    padding-left: 138px;
+    margin: 0 0 10px 0;
   }
 }
 
@@ -54,14 +54,10 @@
 
   @media all and (min-width: 768px) {
     width: 50%;
-    padding-top: 50px;
-    padding-right: 45px;
     margin-bottom: 0;
     align-items: flex-end;
   }
-  @media all and (min-width: 1200px) {
-    padding-right: 138px;
-  }
+
   .footer-list {
     display: flex;
     justify-content: center;
@@ -78,17 +74,17 @@
   .link-footer {
     color: $dark-grey;
     text-decoration: none;
+    transition: color ease 0.5s;
+    &:hover {
+      color: $black;
+    }
   }
 }
 .img-logo {
   height: 45px;
   margin-bottom: 45px;
   @media all and (min-width: 768px) {
-    margin-left: 45px;
     transform: translate(0px, -45px);
-  }
-  @media all and (min-width: 1200px) {
-    margin-left: 138px;
   }
 }
 .img-logo2 {

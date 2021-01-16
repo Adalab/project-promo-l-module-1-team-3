@@ -18,11 +18,3 @@
     text-decoration: underline;
   }
 }
-.link-footer {
-  color: $dark-grey;
-  text-decoration: none;
-  transition: color ease 0.7s;
-  &:hover {
-    background-color: grey;
-  }
-}
